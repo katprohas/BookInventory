@@ -1,0 +1,53 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+header {
+    background-color: rgb(56, 117, 171);
+    color: white;
+}
+body {
+  margin-bottom: 60px;
+}
+
+
+h1 {
+    color: rgb(56, 117, 171);
+    font-weight: 900;
+    text-transform: uppercase;
+}
+#homepage {
+    border: 5px solid rgb(56, 117, 171);
+    margin-top: 20px;
+    padding: 10px;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    color:rgb(56, 117, 171) ;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    min-width: 20%;
+    max-width: 40%;
+    border-radius: 5%;
+}
